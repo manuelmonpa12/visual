@@ -1,0 +1,9 @@
+c:\users\sala-5\documents\visual studio 2013\Projects\FCliente\FCliente\bin\Debug\FCliente.exe.config
+C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\bin\Debug\FCliente.exe
+C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\bin\Debug\FCliente.pdb
+C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\obj\Debug\FCliente.csprojResolveAssemblyReference.cache
+C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\obj\Debug\FCliente.FCliente.resources
+C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\obj\Debug\FCliente.Properties.Resources.resources
+C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\obj\Debug\FCliente.csproj.GenerateResource.Cache
+C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\obj\Debug\FCliente.exe
+C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\obj\Debug\FCliente.pdb
