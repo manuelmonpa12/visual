@@ -34,16 +34,27 @@ namespace FCliente
         private void button1_Click(object sender, EventArgs e)
         {
             objCliente = new Cliente();
-
+            
             objCliente.Identificacion = Convert.ToInt32(txtid.Text.Trim());
             objCliente.Nombre = txtNom.Text.ToUpper().Trim();
             objCliente.Apellido = txtApe.Text.ToUpper().Trim();
-
+            objCliente.Ciudad = txtCiudad.Text.ToUpper().Trim();
+            
+            //sexo ini           
+            if (radioButton1.Checked)
+            {
+                objCliente.Sexo =  radioButton1.Text;
+            }
+            else if (radioButton2.Checked)
+            {
+                objCliente.Sexo =   radioButton2.Text;
+            }
+            //sexo fin
             objCenso.AdicionarCliente(objCliente);
-            String mensaje = String.Format("El costo de almacenamiento es: {0}\n"+
-                                           "El valor del producto es: {1}\n"+
-                                           "El valor de venta del producto: {2}", objCliente.Nombre, objCliente.Apellido, objCliente.Identificacion);
-            MessageBox.Show(mensaje);
+            //String mensaje = String.Format("El costo de almacenamiento es: {0}\n"+
+            //                               "El valor del producto es: {1}\n"+
+            //                               "El valor de venta del producto: {2}", objCliente.Nombre, objCliente.Apellido, objCliente.Identificacion);
+            MessageBox.Show(" Registro Guardado");
             llenarGrilla();
         }
 
@@ -64,6 +75,7 @@ namespace FCliente
 
             txtNom.Text = objCliente.Nombre;
             txtApe.Text = objCliente.Apellido;
+            txtCiudad.Text = objCliente.Ciudad;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -74,7 +86,7 @@ namespace FCliente
         private void button1_Click_1(object sender, EventArgs e)
         {
             objCenso.EliminarCliente(Convert.ToInt32(txtid.Text));
-
+            MessageBox.Show("Registro Eliminado");
             llenarGrilla();
         }
 
@@ -83,7 +95,8 @@ namespace FCliente
             txtid.Text = dgDatos.Rows[e.RowIndex].Cells[0].Value.ToString();
             txtNom.Text = dgDatos.Rows[e.RowIndex].Cells[1].Value.ToString();
             txtApe.Text = dgDatos.Rows[e.RowIndex].Cells[2].Value.ToString();
-
+            //ojo
+            txtCiudad.Text = dgDatos.Rows[e.RowIndex].Cells[3].Value.ToString();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -91,6 +104,7 @@ namespace FCliente
             objCliente.Nombre = txtNom.Text;
             objCliente.Apellido = txtApe.Text;
             objCliente.Identificacion = Convert.ToInt32(txtid.Text);
+            objCliente.Ciudad = txtCiudad.Text;
 
             objCenso.ActualizarCliente(objCliente);
             llenarGrilla();
@@ -109,6 +123,38 @@ namespace FCliente
         private void toolStripStatusLabel1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtid_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtid_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validaciones.SoloNumeros(e);
+        }
+
+        private void txtNom_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validaciones.SoloLetras(e);
+        }
+
+        private void txtApe_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validaciones.SoloLetras(e);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            txtApe.Clear();
+            txtid.Clear();
+            txtNom.Clear();            
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+            
         }
         }
     }

@@ -7,3 +7,12 @@ C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\obj\Debu
 C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\obj\Debug\FCliente.csproj.GenerateResource.Cache
 C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\obj\Debug\FCliente.exe
 C:\Users\SALA-5\Documents\Visual Studio 2013\Projects\FCliente\FCliente\obj\Debug\FCliente.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\visual-master\FCliente\FCliente\bin\Debug\FCliente.exe.config
+C:\Users\USER\Documents\Visual Studio 2015\Projects\visual-master\FCliente\FCliente\obj\Debug\FCliente.exe
+C:\Users\USER\Documents\Visual Studio 2015\Projects\visual-master\FCliente\FCliente\obj\Debug\FCliente.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\visual-master\FCliente\FCliente\bin\Debug\FCliente.exe
+C:\Users\USER\Documents\Visual Studio 2015\Projects\visual-master\FCliente\FCliente\bin\Debug\FCliente.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\visual-master\FCliente\FCliente\obj\Debug\FCliente.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2015\Projects\visual-master\FCliente\FCliente\obj\Debug\FCliente.FCliente.resources
+C:\Users\USER\Documents\Visual Studio 2015\Projects\visual-master\FCliente\FCliente\obj\Debug\FCliente.Properties.Resources.resources
+C:\Users\USER\Documents\Visual Studio 2015\Projects\visual-master\FCliente\FCliente\obj\Debug\FCliente.csproj.GenerateResource.Cache

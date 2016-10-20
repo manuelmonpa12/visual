@@ -34,6 +34,7 @@ namespace FCliente.Models
                 {
                     clie.Nombre = clieUpdate.Nombre;
                     clie.Apellido = clieUpdate.Apellido;
+                    clie.Ciudad = clieUpdate.Ciudad;
                     return;
                 }
             }
@@ -55,6 +56,7 @@ namespace FCliente.Models
                 {
                     objCli.Nombre = clie.Nombre;
                     objCli.Apellido = clie.Apellido;
+                    objCli.Ciudad = clie.Ciudad;
                 }
             }
             return objCli;
